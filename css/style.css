@@ -69,7 +69,14 @@ img {
     float: left;
 }
 
+form {
+    line-height: 2em;
+    margin: 40px;
+}
 
-
-
+form input, form textarea {
+    padding: 5px;
+    border: 5px inset #ccc;
+    resize: none;
+}
 
