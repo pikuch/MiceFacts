@@ -74,9 +74,15 @@ form {
     margin: 40px;
 }
 
+form button {
+    padding: 10px 20px;
+    margin: 10px;
+}
+
 form input, form textarea {
     padding: 5px;
     border: 5px inset #ccc;
+    width: 400px;
     resize: none;
 }
 
