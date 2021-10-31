@@ -7,17 +7,22 @@
     <meta name="description" content="A site for mice facts">
     <meta name="author" content="pikuch">
     <title>Mice facts</title>
+    <link rel="icon" type="image/x-icon" href="img/MiceFactsIcon.ico">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <!-- header -->
-        <h1>Mice facts</h1>
+        <div class="headerItems">
+            <img class="logo headerItem" src="img/MiceFactsLogo.png" alt="site logo" width="40" height="40">
+            <h1 class="headerItem">Mice facts</h1>
+            <img class="logo headerItem" src="img/MiceFactsLogo.png" alt="site logo" width="40" height="40">
+        </div>
         <!-- navigation menu -->
         <div class="nav">
             <ul>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a class="currentNavItem" href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="facts.html">Facts</a>
@@ -32,14 +37,16 @@
         </div>
     </header>
 
+    <!-- content -->
     <div class="content">
-        <h1>Welcome to the mice facts site!</h1>
+        <h1>Welcome to the mice facts!</h1>
         <figure>
             <img class="welcomeImage" src="img/welcomeImage.jpg" width="400" height="400" alt="a mouse" />
             <figcaption>Look in his eyes. Aren't they cute?</figcaption>
         </figure>
     </div>
 
+    <!-- footer -->
     <footer class="footer">
         <div class="footerItem">
             <img class="warningIcon" src="img/warningIcon.png" alt="warning" width="40" height="40">

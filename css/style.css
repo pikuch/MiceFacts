@@ -6,16 +6,70 @@ body {
     margin: 0px;
 }
 
+.headerItems {
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+.headerItem {
+    display: inline-block;
+    color: #ccc;
+    vertical-align: top;
+    margin: 5px;
+}
+
+.nav {
+    background-color: orange;
+    overflow: hidden;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    display: block;
+    float: left;
+    padding: 20px 40px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #ccc;
+}
+
+.nav .currentNavItem {
+    background-color: darkorange;
+}
+
 .footer {
     font-size: 1rem;
     text-align: left;
-    margin: 10px;
+    padding: 10px;
     color: #667;
+    border-top: 2px solid orange;
 }
 
-img.warningIcon {
+figure {
+    margin: 20px;
+}
+
+img {
     margin: 10px;
+}
+
+.welcomeImage {
+    border: 5px groove #ccc;
+}
+
+.warningIcon {
     float: left;
 }
+
+
+
 
 
