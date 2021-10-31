@@ -79,6 +79,12 @@ form button {
     margin: 10px;
 }
 
+form button:enabled {
+    background-color: orange;
+
+}
+
+
 form input, form textarea {
     padding: 5px;
     border: 5px inset #ccc;

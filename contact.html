@@ -41,13 +41,15 @@
     <div class="content">
         <h1>Subscribe to mice facts newsletter:</h1>
         <form id="contactForm">
+            <script src="js/formSubmitButtonEnabler.js"></script>
+
             <label for="userName">Your name:</label><br>
-            <input type="text" id="userName" name="name" maxlength="30" placeholder="Enter your name"><br>
+            <input type="text" id="userName" oninput="formSubmitButtonEnabler()" name="name" maxlength="30" placeholder="Enter your name"><br>
             <label for="userEmail">Your email:</label><br>
-            <input type="text" id="userEmail" name="email" maxlength="50" placeholder="Give your email"><br>
+            <input type="text" id="userEmail" oninput="formSubmitButtonEnabler()" name="email" maxlength="50" placeholder="Give your email"><br>
             <label for="userReason">Reason for subscribing:</label><br>
-            <textarea id="userReason" name="reason" placeholder="e.g. I love mice and need to know more about them." rows="4" cols="60"></textarea><br>
-            <button type="button" onclick="" disabled>SEND</button>
+            <textarea id="userReason" name="reason" oninput="formSubmitButtonEnabler()" placeholder="e.g. I love mice and need to know more about them." rows="4" cols="60"></textarea><br>
+            <button type="button" id="submitButton" onclick="" disabled>SEND</button>
         </form>
     </div>
 
