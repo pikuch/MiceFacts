@@ -1,5 +1,21 @@
-* {
+body {
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #efe;
+    background-color: #090020;
     margin: 0px;
 }
+
+.footer {
+    font-size: 1rem;
+    text-align: left;
+    margin: 10px;
+    color: #667;
+}
+
+img.warningIcon {
+    margin: 10px;
+    float: left;
+}
+
 
