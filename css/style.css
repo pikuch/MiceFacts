@@ -81,14 +81,21 @@ form button {
 
 form button:enabled {
     background-color: orange;
-
 }
-
 
 form input, form textarea {
     padding: 5px;
-    border: 5px inset #ccc;
+    border: 2px solid orange;
     width: 400px;
     resize: none;
 }
 
+form input:focus, form textarea:focus {
+    outline: 4px solid darkorange;
+}
+
+.validationMessage {
+    margin: 0;
+    height: 30px;
+    color: red;
+}
