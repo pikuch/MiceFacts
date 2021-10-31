@@ -99,3 +99,40 @@ form input:focus, form textarea:focus {
     height: 30px;
     color: red;
 }
+
+article {
+    margin: 20px;
+    text-align: left;
+}
+
+article > div {
+    margin: 20px;
+}
+
+article:nth-child(even) {
+    color: rgb(40, 40, 40);
+    background-color: rgba(215, 215, 215, 0.8);
+}
+
+article:nth-child(odd) {
+    color: rgb(215, 215, 215);
+    background-color: rgba(40, 40, 40, 0.8);
+}
+
+.factMedia {
+    display: inline-block;
+    width: 10vw;
+    height: 10vw;
+}
+
+.factText {
+    vertical-align: top;
+    display: inline-block;
+    width: 70vw;
+}
+
+article img {
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
