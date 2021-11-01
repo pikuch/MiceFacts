@@ -1,25 +1,33 @@
+:root {
+    --myForeground: #efe;
+    --myBackground: #090020;
+    --myAccentColor: orange;
+    --myStrongAccentColor: darkorange;
+    --myErrorColor: red;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    color: #efe;
-    background-color: #090020;
-    margin: 0px;
+    color: var(--myForeground);
+    background-color: var(--myBackground);
+    margin: 0;
 }
 
 .headerItems {
     padding: 20px;
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 .headerItem {
     display: inline-block;
     color: #ccc;
     vertical-align: top;
-    margin: 5px;
+    margin: 0.5rem;
 }
 
 .nav {
-    background-color: orange;
+    background-color: var(--myAccentColor);
     overflow: hidden;
 }
 
@@ -42,7 +50,7 @@ body {
 }
 
 .nav .currentNavItem {
-    background-color: darkorange;
+    background-color: var(--myStrongAccentColor);
 }
 
 .footer {
@@ -50,7 +58,7 @@ body {
     text-align: left;
     padding: 10px;
     color: #667;
-    border-top: 2px solid orange;
+    border-top: 2px solid var(--myAccentColor);
 }
 
 figure {
@@ -80,24 +88,24 @@ form button {
 }
 
 form button:enabled {
-    background-color: orange;
+    background-color: var(--myAccentColor);
 }
 
 form input, form textarea {
     padding: 5px;
-    border: 2px solid orange;
+    border: 2px solid var(--myAccentColor);
     width: 400px;
     resize: none;
 }
 
 form input:focus, form textarea:focus {
-    outline: 4px solid darkorange;
+    outline: 4px solid var(--myStrongAccentColor);
 }
 
 .validationMessage {
     margin: 0;
     height: 30px;
-    color: red;
+    color: var(--myErrorColor);
 }
 
 article {
