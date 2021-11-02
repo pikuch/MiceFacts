@@ -151,15 +151,15 @@ article:nth-child(odd) {
     background-color: rgba(40, 40, 40, 0.8);
 }
 
+.fact {
+    display: flex;
+}
+
 .factMedia {
-    display: inline-block;
-    width: 10vw;
     height: 10vw;
 }
 
 .factText {
-    vertical-align: top;
-    display: inline-block;
     width: 70vw;
 }
 
